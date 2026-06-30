@@ -1,0 +1,16 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.vscode/
+.idea/
+
+# Sorties locales de migration (rapports, captures, dumps) — ne pas committer
+reports/
+configs/
+backups/
+*.csv
+*.log
+*.tar.zst
+*.run

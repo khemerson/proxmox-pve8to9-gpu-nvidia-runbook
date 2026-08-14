@@ -61,8 +61,8 @@ Définissez ces variables au début de votre session. Elles sont réutilisées d
 
 ```bash
 # Identité du nœud
-NODE_IP="192.0.2.10"                 # IP de gestion SSH du nœud
-NODE_NAME="<node>"                      # hostname (pour nommer les rapports)
+NODE_IP="192.0.2.10"                    # IP de gestion SSH du nœud
+NODE_NAME="<node>"                      # hostname du nœud (pour nommer les rapports)
 # Conteneurs
 GPU_LXC="201 202 203"                   # VMID des conteneurs avec passthrough GPU
 ALL_GUESTS="201 202 203 204 205 206 207 208"  # tous les invités à arrêter avant reboot
